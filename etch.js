@@ -1,8 +1,11 @@
 let container = document.querySelector('.container')
 
-for(let i = 0; i < 16; i++){
+for(let i = 0; i < 256; i++){
 let grid = document.createElement('div');
-grid.setAttribute('style', 'width: 100px; height: 100px; border: solid; margin: 10px;')
+grid.setAttribute('style', 'width: 20px; height: 20px; border: solid; margin: 5px;')
+grid.addEventListener('mouseover', (hover) => {
+    grid.style.backgroundColor = "blue";
+})
 container.appendChild(grid);
 }
 
