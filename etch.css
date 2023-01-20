@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: black;
 }
 
 .buttonContainer {
@@ -15,7 +16,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     border: solid;
-
+    background-color: rgb(250, 248, 248);
 }
 
 
@@ -23,5 +24,6 @@ body {
 td {
     width: 500px;
     border: solid;
+    
 }
 
